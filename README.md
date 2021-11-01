@@ -3,7 +3,7 @@ A resource that compiles files for the Multi Theft Auto platform
 
 This is a compiler library for [Multi Theft Auto: San Andreas](https://mtasa.com/)
 
-**MTA:SA Forum Topic:** https://forum.mtasa.com/topic/95964-releasethisdps-dx-gui-system/
+**MTA:SA Forum Topic:** https://forum.mtasa.com/topic/133027-release-compiler/
 
 **Discord Topic:** https://discord.gg/gJszaFjDQA
 (Help, Tutorials and demonstrations on how the compiler works)
