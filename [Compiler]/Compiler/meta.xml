@@ -1,0 +1,19 @@
+<meta>
+    <info name="Compiler" author="Rick" type="script" version="1.0.0" />
+    <min_mta_version client="1.5.9" server="1.5.9" />
+	<script src="process.lua" type="shared"/>
+	<script src="exported_functions.lua" type="shared"/>
+
+	<export function="fileCompile" type="shared" />
+	<export function="fileDecompile" type="shared" />
+	<export function="getFileExtension" type="shared" />
+	<export function="getFileName" type="shared" />
+	<export function="getFilePath" type="shared" />
+	<export function="replaceCompileFile" type="shared" />
+	<export function="replaceDecompileFile" type="shared" />
+
+	<aclrequest>
+		<right name="general.ModifyOtherObjects" access="true" />
+	</aclrequest>
+	<download_priority_group>999</download_priority_group>
+</meta>
