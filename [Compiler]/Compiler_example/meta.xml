@@ -1,0 +1,8 @@
+<meta>
+	<info name="Compiler_example" author="Rick" version="0.0.1" type="script" />
+	<script src="Compiler_example_client.lua" type="client" />
+	<script src="Compiler_example_server.lua" type="server" />
+	<file src="banshee.txd" type="client" />
+	<file src="banshee.dff" type="client" />
+	<include resource="Compiler" />
+</meta>
