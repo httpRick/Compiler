@@ -6,6 +6,10 @@ function loadBanshee()
 		engineImportTXD(loadTXD, 429)
 		local loadDFF = engineLoadDFF(dff)
 		engineReplaceModel(loadDFF, 429)
+		-- Recommended use after all models are loaded
+		txd, dff, loadTXD, loadDFF = nil, nil, nil, nil
+		collectgarbage("collect") 
+		--
 		outputChatBox("Successfully decrypted model banshee and loaded")
 	else
 		outputChatBox("Failed to decrypted model banshee")
